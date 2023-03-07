@@ -1,8 +1,10 @@
+/* {
+    border: solid red 1px;
+} */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
 }
 .first-section {
     background-color: #1F2937;
@@ -60,4 +62,70 @@ button {
     max-width: 560px;
     max-height: 343px;
     flex-shrink: 0;
+}
+
+
+
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 16px auto 16px;
+}
+.info-tiles {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 56px;
+}
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+}
+.img-container {
+    border-radius: 16px;
+    height: 160px;
+    width: 160px;
+}
+.img2 {
+    border-radius: 12px;
+    height: 160px;
+    width: 160px;
+}
+
+
+
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    width: 750px;
+    padding-bottom: 108px;
+    padding-top: 128px;
+}
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+.thor {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: end;
 }
