@@ -1,6 +1,3 @@
-/* {
-    border: solid red 1px;
-} */
 body {
     margin: 0;
     padding: 0;
@@ -63,10 +60,6 @@ button {
     max-height: 343px;
     flex-shrink: 0;
 }
-
-
-
-
 .second-section {
     display: flex;
     flex-direction: column;
@@ -82,7 +75,7 @@ button {
 .info-tiles {
     display: flex;
     gap: 72px;
-    margin-bottom: 56px;
+    margin-bottom: 80px;
 }
 .tile {
     display: flex;
@@ -103,10 +96,6 @@ button {
     height: 160px;
     width: 160px;
 }
-
-
-
-
 .third-section {
     background-color: #E5E7EB;
     display: flex;
@@ -128,4 +117,40 @@ button {
     font-weight: 700;
     font-size: 20px;
     text-align: end;
+}
+.fourth-section {
+    padding: 100px 180px 100px;
+}
+.call-container {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 800px;
+    font-size: 20px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.call-text>h3 {
+    margin: 0;
+}
+.call-text>p {
+    margin: 0;
+}
+.call-container>button {
+    align-self: center;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
 }
